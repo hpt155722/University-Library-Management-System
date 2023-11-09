@@ -52,6 +52,11 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color:  rgb(128, 144, 207);
+    color: white;
 }
 
+.item-cover {
+    max-width: 100px; /* Set the maximum width for the cover images */
+    max-height: 150px; /* Set the maximum height for the cover images */
+}
