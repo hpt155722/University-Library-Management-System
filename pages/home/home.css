@@ -20,7 +20,28 @@ h1 {
     font-size: 4vw;
     text-align: center;
     margin-top: 2vw;
-    text-transform: uppercase;
+}
+
+/* Logout button styles */
+.logout-container {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.logout-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; /* Adjust padding to make it smaller */
+    cursor: pointer;
+    transition: none; /* Disable the hover transition */
+}
+
+/* Style for the logout button on hover (optional) */
+.logout-button:hover {
+    background-color: red; /* Keep the same color on hover */
 }
 
 /* Styling for paragraphs (p) */
@@ -81,6 +102,13 @@ hr {
 
 /* Creating a CSS class for the book cover container */
 .book-covers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-covers-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -167,5 +195,3 @@ img.item-cover {
 .notification .alert-count:hover::before {
     visibility: visible; /* Display the tooltip on hover */
 }
-
-
