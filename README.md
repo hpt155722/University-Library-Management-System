@@ -2,7 +2,7 @@
 
 This project was collaborated with a team of four. Over the course of a semester, we designed and implemented a comprehensive Library Management System for a university library. The project starting with the conceptualization and sketching of the database schema to deployment and presentation.
 
-This system lets students and faculty borrow a variety of things like books, media, and devices. It also helps managers handle fines for late returns and user requests. Students and faculty have specific limits and due dates. Every item is tracked with a unique ID, even if there are duplicates. The system also keeps track of fines and late returns.  Dashboard interfaces differ for users and for managers, who have access to control fines, holds, and user details
+This system facilitates borrowing various items such as books, media, and devices by students, faculty, and managers, each having distinct abilities and roles within the system.
 
 <br>
 
